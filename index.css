@@ -1,0 +1,39 @@
+.container{
+    background-color: #F0FFF0;
+    margin-bottom: 40px;
+}
+.nav-item{
+    margin-left: 10px;
+    color: #21B573;
+}
+
+.sign-in-btn{
+    width: 75px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GetStartedBtn{
+    width: 170px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.secondcontainer .row{
+    margin-right: 20px;
+    margin-left: -20px;
+}
+#Blog{
+    background-color: #F8FFFB;
+}
+
+.card:hover{
+    background-color: #F0FFF0;
+}
+.secondbtn-success{
+    border-radius: 30px;
+}
+.lastrow{background-color: #282531;
+color: white;
+}
