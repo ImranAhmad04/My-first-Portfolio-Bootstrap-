@@ -22,6 +22,7 @@
 }
 .secondcontainer .row{
     margin-right: 20px;
+    
     margin-left: -20px;
 }
 #Blog{
@@ -36,4 +37,12 @@
 }
 .lastrow{background-color: #282531;
 color: white;
+}
+.h6color{
+    color: orange;
+}
+.card-footer{
+    border: none;
+    width: 110%;
+    margin-left: -5%;
 }
