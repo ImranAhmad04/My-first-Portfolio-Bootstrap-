@@ -1,6 +1,6 @@
 .container{
     background-color: #F0FFF0;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 .nav-item{
     margin-left: 10px;
@@ -19,6 +19,7 @@
     width: 170px;
     padding: 10px;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 .secondcontainer .row{
     margin-right: 20px;
@@ -46,3 +47,65 @@ color: white;
     width: 110%;
     margin-left: -5%;
 }
+.card:hover{
+    cursor: pointer;
+} 
+.responsive-img{
+      width: 100%;
+      height: 260px;
+      margin: 5px;
+      padding: 5px;
+}
+@media only screen and (max-width: 880px) {
+   nav .navbar-brand{
+      width: 550px;
+      background: #e2ddf0;
+      margin: 5px;
+      padding: 5px; 
+      text-align: center;
+    }
+    .card{ 
+        margin: 10px auto;
+    }
+    .navbar-toggler {
+        width: 550px; 
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold; 
+        background-color: #f6f2ff;
+        overflow: hidden;
+    }
+     .nav-item{
+        text-align: center;
+        background: #f6f2ff;
+        max-width: 550px ;
+        font:20px bold;
+    }
+    .sign-in-btn{
+        background-color: green; 
+        width: 98%;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    #Blog .row .col-md-3 {
+        width:  550px;
+    }
+    #Courses .row{
+        display: hidden;
+    }
+    .testimonial{
+        margin: 5px; 
+        text-align: center;
+        margin: 0 auto;
+    } 
+  }
+  @media only screen and (max-width: 500px){
+    .lastrow a strong{
+        width: 100%; 
+        font-size: 30px; 
+        padding: 2px;
+        background-color: #06e2ff;
+    }
+  }
